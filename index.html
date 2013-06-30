@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<title>cloud|fleet - be the captain of your data </title>
+
+	<link href="fixed-positioning.css" rel="stylesheet" type="text/css" />
+	<link href="main.css" rel="stylesheet" type="text/css" />
+	<link href='//fonts.googleapis.com/css?family=Special+Elite|Poly|Signika:600' rel='stylesheet' type='text/css'/>
+</head>
+
+<body>
+	<div id="bg1" data-0="top:0px;" data-end="top: -100px;"></div>
+	<div id="bg2" data-0="top:0px;" data-end="top: -200px;"></div>
+	<div id="bg3" data-0="top:0px;" data-end="top: -300px;"></div>
+	
+	<div id="content">
+		<h1>cloud|fleet<small> - be the captain of your data</small></h1>
+
+		<h2>FAQs</h2>
+		
+		<h3>what is cloud|fleet?</h3>
+
+		<p>A box that makes it easy to host the essential cloud services at home.</p>
+
+		<h3>why should I use cloud|fleet?</h3>
+
+		<p>Because your data should be yours. Don't let the NSA or Google snoop on you. </p>
+
+		<h3>how will you make money?</h3>
+
+		<ul> <li>We will get off the ground with a kickstarter campaign</li> <li>We
+		will sell readily imaged devices</li> <li>We will also charge a monthly fee
+		for the firewall tunnelling service and the regular security and feature
+		updates.</li> <li>We will offer additional services like backup and
+		insurance in case your box breaks down</li> </ul><h3>can I try out cloud|fleet?</h3>
+
+<p>You will be able to try out cloud|fleet on a virtual server for a week. If you like it you will be able to transfer your data to the device.</p>
+
+<h3>will you use free software?</h3>
+
+<p>Most of the software will be licensed under the AGPL license. We will not use any closed source software.<br>
+Everything we develop on our own will be published on github.</p>
+
+<h3>will your stack run on X?</h3>
+
+<p>While we will not give any guarantees everything should be adaptable for your system. <br>
+We will be happy to help people out with any porting endeavours.</p>
+<h3>Can I share the box?</h3>
+Yes. But we recommend to have your own. Thnistrator of the box will always have access to all the data in the box.
+So if you really want to be the captain of your own data, get your ip.
+
+<h3>Should I hide the box?</h3>
+
+
+<h2>Motivation</h2>
+
+<h3>1. Privacy</h3>
+
+<p>Recent developments <a href="Prism%20link">1</a> showed that big providers cannot be trusted to be able to keep your data secure, even if they have the best intentions to do no evil.</p>
+
+<h3>2. Accessability</h3>
+
+<p>Big providers can shut you out of your account for no reason whatsoever, taking your data with them. Only by reclaiming the cloud can you guarantee access to your  own data forever.</p>
+
+<h3>3. Resilience</h3>
+
+<p>With a big network of inexpensive boxes, no single outtage can have a devastating effect like the shutdown of a big provider <a href="megaupload%20story">2</a></p>
+
+<h3>4. Expandability</h3>
+
+<p>If you own your data you can augment your cloud with additional as they get available.</p>
+
+<h2>Initial Features</h2>
+
+<h3>Mail</h3>
+
+<p>RoundCube | self developed Mail application</p>
+
+<h3>File Synchronization</h3>
+
+<p>ownCloud | self developed synch application</p>
+
+<h3>Note taking</h3>
+
+<p>etherPad</p>
+
+<h3>Instant Messaging</h3>
+
+<h3>Contact Management</h3>
+
+<h3>Calendar</h3>
+
+<h3>User Management</h3>
+
+<p>Self developed frontend for an ldap server</p>
+
+<h3>Mobile Synchronization</h3>
+
+<p>The stack will make use of standards like CalDAV and CardDAV.</p>
+
+<h2>Planned Features</h2>
+
+<h3>F2F Secure Communication</h3>
+
+<h3>Distributed Social Networking</h3>
+
+<h3>Project Management</h3>
+
+<h3>Cloud Backup</h3>
+
+<h3>Service Provider Framework</h3>
+
+<h2>Architecture</h2>
+
+<h3>Hardware</h3>
+
+<p>The cloud|fleet stack will run on any hardware. It will be optimized for the CuBox Pro of SolidRun.</p>
+
+<h3>Software</h3>
+
+<h4>Base System</h4>
+
+<p>The base system will be a hardened version of Ubuntu that exposes a minimal attack interface.</p>
+
+<h4>Firewall Tunneling</h4>
+
+<p>To make deployment behind firewalls possible, the cloud|fleet box will connect to a <a href="https://pagekite.net">pagekite</a> server.<br>
+Later it will be possible for nodes with a public ip to act as pagekite providers themselves to decentralize this component.</p>
+
+<p>A separate system will be used for exposing the mail server.</p>
+	</div>
+	
+	<script type="text/javascript" src="skrollr.js"></script>
+
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="dist/skrollr.ie.min.js"></script>
+	<![endif]-->
+
+	<script type="text/javascript">
+	var s = skrollr.init({
+		edgeStrategy: 'set',
+		easing: {
+			WTF: Math.random,
+			inverted: function(p) {
+				return 1-p;
+			}
+		}
+	});
+	</script>
+</body>
+
+</html>
