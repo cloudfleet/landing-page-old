@@ -1,0 +1,70 @@
+.skrollable {
+	/*
+	 * First-level skrollables are positioned relative to window
+	 */
+	position:fixed;
+
+	/*
+	 * Skrollables by default have a z-index of 100 in order to make it easy to position elements in front/back without changing each skrollable
+	 */
+	z-index:100;
+}
+
+#bg1, #bg2, #bg3 {
+	top:-100%;
+	left:0;
+	width:100%;
+	height:300%;
+}
+
+#bg1 {
+	z-index:50;
+	background:url(images/Airships1-big.png) repeat;
+	background-size:50%;
+	-webkit-animation: animatedBackground 40s linear infinite;
+	-moz-animation: animatedBackground 40s linear infinite;
+}
+
+
+#bg2 {
+	z-index:49;
+	background-size:40%;
+	background-image:url(images/Airships2-big.png);
+	-webkit-animation: animatedBackground2 100s linear infinite;
+  -moz-animation: animatedBackground2 100s linear infinite;
+}
+
+#bg3 {
+	z-index:48;
+	background-size:30%;
+	background-image:url(images/Airships3-big.png);
+	-webkit-animation: animatedBackground3 200s linear infinite;
+	-moz-animation: animatedBackground3 200s linear infinite;
+}
+
+
+@-webkit-keyframes animatedBackground {
+	from { background-position: 0; }
+	to { background-position: 100%; }
+}
+@-webkit-keyframes animatedBackground2 {
+	from { background-position: 0; }
+	to { background-position: 133.33%; }
+}
+@-webkit-keyframes animatedBackground3 {
+	from { background-position: 0; }
+	to { background-position: 171%; }
+}
+@-moz-keyframes animatedBackground {
+	from { background-position: 0; }
+	to { background-position: 100%; }
+}
+@-moz-keyframes animatedBackground2 {
+	from { background-position: 0; }
+	to { background-position: 133.33%; }
+}
+@-moz-keyframes animatedBackground3 {
+	from { background-position: 0; }
+	to { background-position: 171%; }
+}
+
