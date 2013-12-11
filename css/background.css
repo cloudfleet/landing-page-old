@@ -19,7 +19,7 @@
 
 #bg1 {
 	z-index:50;
-	background:url(images/Airships1-big.png) repeat;
+	background:url(../images/Airships1-big.png) repeat;
 	background-size:50%;
 	-webkit-animation: animatedBackground 40s linear infinite;
 	-moz-animation: animatedBackground 40s linear infinite;
@@ -29,7 +29,7 @@
 #bg2 {
 	z-index:49;
 	background-size:40%;
-	background-image:url(images/Airships2-big.png);
+	background-image:url(../images/Airships2-big.png);
 	-webkit-animation: animatedBackground2 100s linear infinite;
   -moz-animation: animatedBackground2 100s linear infinite;
 }
@@ -37,7 +37,7 @@
 #bg3 {
 	z-index:48;
 	background-size:30%;
-	background-image:url(images/Airships3-big.png);
+	background-image:url(../images/Airships3-big.png);
 	-webkit-animation: animatedBackground3 200s linear infinite;
 	-moz-animation: animatedBackground3 200s linear infinite;
 }

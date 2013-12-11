@@ -1,4 +1,4 @@
-@font-face {
+/*@font-face {
   font-family: 'ICBMSS25';
   src: url('fonts/icbmss25.eot');
   src: url('fonts/icbmss25.eot?#iefix') format('embedded-opentype'),
@@ -12,7 +12,7 @@
   font-weight: 400;
   src: local('Special Elite'), local('SpecialElite-Regular'), url(https://themes.googleusercontent.com/static/fonts/specialelite/v3/9-wW4zu3WNoD5Fjka35Jm_n8qdNnd5eCmWXua5W-n7c.woff) format('woff');
 }
-
+*/
 
 html, body, div, span, p, a, del, em, img, ol, ul, li, fieldset, form, label {
 	margin: 0;
@@ -42,12 +42,12 @@ html, body {
 html, body {
 	line-height: 1;
 	min-height:100%;
-	font-family:'Special Elite', monospace;
+	font-family: monospace;
 }
 
 h1, h2, h3, h4, h5, h6
 {
-	font-family:'ICBMSS25',sans-serif;
+	font-family:sans-serif;
 	font-weight: normal;
 }
 

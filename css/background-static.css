@@ -13,7 +13,7 @@
 
 #bg1 {
 	z-index:50;
-	background:url(images/Airships1-big.png);
+	background:url(../images/Airships1-big.png);
 	background-size:50%;
 }
 
@@ -21,12 +21,12 @@
 #bg2 {
 	z-index:49;
 	background-size:40%;
-	background-image:url(images/Airships2-big.png);
+	background-image:url(../images/Airships2-big.png);
 }
 
 #bg3 {
 	z-index:48;
 	background-size:30%;
-	background-image:url(images/Airships3-big.png);
+	background-image:url(../images/Airships3-big.png);
 }
 
